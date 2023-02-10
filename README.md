@@ -1,2 +1,2 @@
 # Gobang
-Gobang human-machine combat procedure.
+Gobang human-machine/human-human combat procedure.
