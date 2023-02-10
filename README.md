@@ -4,7 +4,7 @@ __English__ | [简体中文](docs/README_cn.md)
 
 This project is the midterm assignment of
 my sophomore Python programming course.
-The project contents include:
+This project contents include:
 
 * Use NumPy to realize Gobang;
 * Use PyGame to display Gobang interface;
