@@ -16,20 +16,20 @@ The programming language used in this project is Python 3.9.
 
 ```
 Gobang
-├── AI                     # 五子棋AI代码包
-    ├── config.py          # AI的配置参数
-    ├── search.py          # Alpha-Beta剪枝算法代码
+├── AI                     # Gobang AI code package
+    ├── config.py          # Configuration of AI
+    ├── search.py          # Alpha-Beta pruning algorithm code
     └── __init__.py
-├── docs                   # 项目文档文件夹
-    ├── images             # 图片文件夹
+├── docs                   # Project Documents
+    ├── images             # Images folder
         └── interface.png
-    └── README_cn.md       # 中文说明文件
-├── font.ttf               # 字体文件
-├── game.py                # 五子棋后端程序
-├── icon.jpeg              # 界面图标
-├── main.py                # 五子棋前端程序
-├── README.md              # 英文说明文件
-└── requirements.txt       # 依赖库列表
+    └── README_cn.md       # Chinese description document
+├── font.ttf               # Font file
+├── game.py                # Back-end program of Gobang
+├── icon.jpeg              # Interface icon
+├── main.py                # Front--end program of Gobang
+├── README.md              # English description document
+└── requirements.txt       # List of requirements
 ```
 
 ## Quick Start
