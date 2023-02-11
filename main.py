@@ -92,7 +92,7 @@ class GameInterface:
 
     def show(self) -> None:
         """
-        Start display interface
+        Start display interface.
         """
         while self.run:
             self.loop()

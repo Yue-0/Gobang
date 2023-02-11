@@ -27,6 +27,7 @@ Gobang
 ├── font.ttf               # Font file
 ├── game.py                # Back-end program of Gobang
 ├── icon.jpeg              # Interface icon
+├── LICENSE                # LICENSE
 ├── main.py                # Front--end program of Gobang
 ├── README.md              # English description document
 └── requirements.txt       # List of requirements

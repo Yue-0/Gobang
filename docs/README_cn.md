@@ -24,6 +24,7 @@ Gobang
 ├── font.ttf               # 字体文件
 ├── game.py                # 五子棋后端程序
 ├── icon.jpeg              # 界面图标
+├── LICENSE                # LICENSE文件
 ├── main.py                # 五子棋前端程序
 ├── README.md              # 英文说明文件
 └── requirements.txt       # 依赖库列表
