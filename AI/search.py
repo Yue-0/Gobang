@@ -57,10 +57,12 @@ class MiniMaxSearch:
         step = game.step
         if step > 1:
             return self.search(game)
-        x, y = [game.size >> 1] * 2
         if step == 1:
-            return x + choice([-1, 1]), y + choice([-1, 1])
-        return x, y
+            x, y = game.history[0]
+            x += choice([-1, 1])
+            y += choice([-1, 1])
+            return max(min(x, game.size), 0), max(min(y, game.size), 0)
+        return game.size >> 1, game.size >> 1
 
     def score(self, game: Gobang) -> int:
         """
